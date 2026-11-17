@@ -30,7 +30,7 @@
     const player = document.querySelector('#player');
 
     form.addEventListener('submit', (event) => {
-      event.preventEvent();
+      event.preventDefault();
       const value = input.value.trim();
       let id = '';
 
